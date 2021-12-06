@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://pypi.org/project/pyramid-log/
-  license: BSD
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: Python logging formatter for Pyramid
