@@ -1,5 +1,5 @@
 {% set name = "pyramid_log" %}
-{% set version = "0.2.1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 165ce9460548b09061db6023b5079eb6290d9490a2b4cf28946e3515185d0a52
+  sha256: b3f28ca34e8d34d282eb5897689cd9cfc3ba20bd2a847f1b807df93ff5937b09
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: BSD
   license_family: BSD
   license_file: LICENSE
-  summary: 'Python logging formatter for Pyramid'
+  summary: Python logging formatter for Pyramid
   description: |
     The pyramid_log distribution includes a Python logging formatter which
     makes Pyramid request attributes available for use in its format string.
