@@ -3,7 +3,7 @@ About pyramid_log
 
 Home: https://pypi.org/project/pyramid-log/
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyramid_log-feedstock/blob/master/LICENSE.txt)
 
